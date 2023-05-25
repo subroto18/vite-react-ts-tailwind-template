@@ -11,6 +11,18 @@ npm install
 npm run dev
 ```
 
+## how to use
+
+After download the project we are good to go. I have used Axios for http request.
+
+you can use it by simply calling the function and chaining with get or post method ..
+
+Api().get('your-url).then().catch()
+
+There is a context folder, you can put your context file in case you do use contextApi in your project
+
+There is also store for using your 3rd party state management system such as redux.
+
 # Features:
 
 `*` Pre install react-router-dom.
